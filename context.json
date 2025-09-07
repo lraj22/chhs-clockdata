@@ -2,10 +2,18 @@
 	"version": 1,
 	"last_updated_id": "2025-09-06-01",
 	"metadata": {
+		"schoolId": 1,
 		"school": "Chino Hills High School",
 		"shortName": "CHHS",
 		"timezone": "America/Los_Angeles"
 	},
+	
+	"announcements": [
+		{
+			"message": "Hey there! Welcome to TimeCheck 22. - TC22 Staff",
+			"applies": ["2025-01-01/12:00 AM -- 2025-12-31/11:59 PM"]
+		}
+	],
 	
 	"schedulingRules": [
 		{
