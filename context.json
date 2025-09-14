@@ -1,12 +1,11 @@
 {
 	"version": 1,
-	"last_updated_id": "2025-09-13-01",
+	"last_updated_id": "2025-09-14-01",
 	"metadata": {
 		"schoolId": 1,
 		"school": "Chino Hills High School",
 		"shortName": "CHHS",
-		"timezone": "America/New_York",
-		"notes": "WARNING: The timezone should be America/Los_Angeles but is New_York for testing purposes (I'm in America/LA)"
+		"timezone": "America/Los_Angeles"
 	},
 	
 	"announcements": [
