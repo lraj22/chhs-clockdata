@@ -1,17 +1,38 @@
 {
 	"version": 1,
-	"last_updated_id": "2025-09-06-01",
+	"last_updated_id": "2025-09-13-01",
 	"metadata": {
 		"schoolId": 1,
 		"school": "Chino Hills High School",
 		"shortName": "CHHS",
-		"timezone": "America/Los_Angeles"
+		"timezone": "America/New_York",
+		"notes": "WARNING: The timezone should be America/Los_Angeles but is New_York for testing purposes (I'm in America/LA)"
 	},
 	
 	"announcements": [
 		{
-			"message": "Hey there! Welcome to TimeCheck 22. - TC22 Staff",
-			"applies": ["2025-01-01/12:00 AM -- 2025-12-31/11:59 PM"]
+			"message": "Wahoooo! Announcements work! Next announcement: 6am",
+			"applies": ["12:00 AM -- 6:00 AM"]
+		},
+		{
+			"message": "Kaboom! Announcements work! Next announcement: 12pm",
+			"applies": ["6:00 AM -- 12:00 PM"]
+		},
+		{
+			"message": "It's true! Announcements work! Next announcement: 6pm",
+			"applies": ["12:00 PM -- 6:00 PM"]
+		},
+		{
+			"message": "Hi there! Announcements work! Next announcement: 10pm",
+			"applies": ["6:00 PM -- 10:00 PM"]
+		},
+		{
+			"message": "Welcome! Announcements work now! This is the last announcement for today. (next 12am)",
+			"applies": ["10:00 PM -- 11:59 PM"]
+		},
+		{
+			"message": "Announcements work! There can be more than 1, but that's kinda annoying so preferably not (this is for testing though)",
+			"applies": ["12:00 AM -- 11:59 PM"]
 		}
 	],
 	
