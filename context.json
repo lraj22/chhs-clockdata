@@ -48,123 +48,159 @@
 		}
 	],
 	
-	"schedules": {
-		"noSchool": {
-			"No school": ["8:00 AM -- 3:22 PM"]
+	"schedules": [
+		{
+			"id": "noSchool",
+			"label": "No school",
+			"timings": {
+				"No school": ["8:00 AM -- 3:22 PM"]
+			}
 		},
-		"lateStart": {
-			"Waiting for first bell": ["8:00 AM -- 9:20 AM"],
-			"Get to 1st period": ["9:20 AM -- 9:25 AM"],
-			"1st period": ["9:25 AM -- 10:14 AM"],
-			"1st-2nd passing period": ["10:14 AM -- 10:20 AM"],
-			"2nd period": ["10:20 AM -- 11:12 AM"],
-			"2nd-3rd passing period": ["11:12 AM -- 11:18 AM"],
-			"3rd period": ["11:18 AM -- 12:07 PM"],
-			"3rd-4th passing period": ["12:07 PM -- 12:13 PM"],
-			"4th period": ["12:13 PM -- 1:02 PM"],
-			"Lunch": ["1:02 PM -- 1:32 PM"],
-			"Lunch-5th passing period": ["1:32 PM -- 1:38 PM"],
-			"5th period": ["1:38 PM -- 2:27 PM"],
-			"5th-6th passing period": ["2:27 PM -- 2:33 PM"],
-			"6th period": ["2:33 PM -- 3:22 PM"],
-			"School's over!": ["3:22 PM -- 4:00 PM"]
+		{
+			"id": "lateStart",
+			"label": "Late start",
+			"timings": {
+				"Waiting for first bell": ["8:00 AM -- 9:20 AM"],
+				"Get to 1st period": ["9:20 AM -- 9:25 AM"],
+				"1st period": ["9:25 AM -- 10:14 AM"],
+				"1st-2nd passing period": ["10:14 AM -- 10:20 AM"],
+				"2nd period": ["10:20 AM -- 11:12 AM"],
+				"2nd-3rd passing period": ["11:12 AM -- 11:18 AM"],
+				"3rd period": ["11:18 AM -- 12:07 PM"],
+				"3rd-4th passing period": ["12:07 PM -- 12:13 PM"],
+				"4th period": ["12:13 PM -- 1:02 PM"],
+				"Lunch": ["1:02 PM -- 1:32 PM"],
+				"Lunch-5th passing period": ["1:32 PM -- 1:38 PM"],
+				"5th period": ["1:38 PM -- 2:27 PM"],
+				"5th-6th passing period": ["2:27 PM -- 2:33 PM"],
+				"6th period": ["2:33 PM -- 3:22 PM"],
+				"School's over!": ["3:22 PM -- 4:00 PM"]
+			}
 		},
-		"regular": {
-			"Waiting for first bell": ["8:00 AM -- 8:30 AM"],
-			"Get to 1st period": ["8:30 AM -- 8:35 AM"],
-			"1st period": ["8:35 AM -- 9:32 AM"],
-			"1st-2nd passing period": ["9:32 AM -- 9:38 AM"],
-			"2nd period": ["9:38 AM -- 10:40 AM"],
-			"2nd-3rd passing period": ["10:40 AM -- 10:46 AM"],
-			"3rd period": ["10:46 AM -- 11:43 AM"],
-			"3rd-4th passing period": ["11:43 AM -- 11:49 AM"],
-			"4th period": ["11:49 AM -- 12:46 PM"],
-			"Lunch": ["12:46 PM -- 1:16 PM"],
-			"Lunch-5th passing period": ["1:16 PM -- 1:22 PM"],
-			"5th period": ["1:22 PM -- 2:19 PM"],
-			"5th-6th passing period": ["2:19 PM -- 2:25 PM"],
-			"6th period": ["2:25 PM -- 3:22 PM"],
-			"School's over!": ["3:22 PM -- 4:00 PM"]
+		{
+			"id": "regular",
+			"label": "Regular",
+			"timings": {
+				"Waiting for first bell": ["8:00 AM -- 8:30 AM"],
+				"Get to 1st period": ["8:30 AM -- 8:35 AM"],
+				"1st period": ["8:35 AM -- 9:32 AM"],
+				"1st-2nd passing period": ["9:32 AM -- 9:38 AM"],
+				"2nd period": ["9:38 AM -- 10:40 AM"],
+				"2nd-3rd passing period": ["10:40 AM -- 10:46 AM"],
+				"3rd period": ["10:46 AM -- 11:43 AM"],
+				"3rd-4th passing period": ["11:43 AM -- 11:49 AM"],
+				"4th period": ["11:49 AM -- 12:46 PM"],
+				"Lunch": ["12:46 PM -- 1:16 PM"],
+				"Lunch-5th passing period": ["1:16 PM -- 1:22 PM"],
+				"5th period": ["1:22 PM -- 2:19 PM"],
+				"5th-6th passing period": ["2:19 PM -- 2:25 PM"],
+				"6th period": ["2:25 PM -- 3:22 PM"],
+				"School's over!": ["3:22 PM -- 4:00 PM"]
+			}
 		},
-		"rally": {
-			"Waiting for first bell": ["8:00 AM -- 8:30 AM"],
-			"Get to 1st period": ["8:30 AM -- 8:35 AM"],
-			"1st period": ["8:35 AM -- 9:21 AM"],
-			"1st-2nd passing period": ["9:21 AM -- 9:27 AM"],
-			"2nd period": ["9:27 AM -- 10:13 AM"],
-			"2nd-3rd passing period": ["10:13 AM -- 10:19 AM"],
-			"3rd period/First rally": ["10:19 AM -- 11:24 AM"],
-			"3rd period/Second rally": ["11:25 AM -- 12:16 PM"],
-			"3rd/Rally-4th passing period": ["12:16 PM -- 12:22 PM"],
-			"4th period": ["12:22 PM -- 1:08 PM"],
-			"Lunch": ["1:08 PM -- 1:38 PM"],
-			"Lunch-5th passing period": ["1:38 PM -- 1:44 PM"],
-			"5th period": ["1:44 PM -- 2:30 PM"],
-			"5th-6th passing period": ["2:30 PM -- 2:36 PM"],
-			"6th period": ["2:36 PM -- 3:22 PM"],
-			"School's over!": ["3:22 PM -- 4:00 PM"]
+		{
+			"id": "rally",
+			"label": "Rally",
+			"timings": {
+				"Waiting for first bell": ["8:00 AM -- 8:30 AM"],
+				"Get to 1st period": ["8:30 AM -- 8:35 AM"],
+				"1st period": ["8:35 AM -- 9:21 AM"],
+				"1st-2nd passing period": ["9:21 AM -- 9:27 AM"],
+				"2nd period": ["9:27 AM -- 10:13 AM"],
+				"2nd-3rd passing period": ["10:13 AM -- 10:19 AM"],
+				"3rd period/First rally": ["10:19 AM -- 11:24 AM"],
+				"3rd period/Second rally": ["11:25 AM -- 12:16 PM"],
+				"3rd/Rally-4th passing period": ["12:16 PM -- 12:22 PM"],
+				"4th period": ["12:22 PM -- 1:08 PM"],
+				"Lunch": ["1:08 PM -- 1:38 PM"],
+				"Lunch-5th passing period": ["1:38 PM -- 1:44 PM"],
+				"5th period": ["1:44 PM -- 2:30 PM"],
+				"5th-6th passing period": ["2:30 PM -- 2:36 PM"],
+				"6th period": ["2:36 PM -- 3:22 PM"],
+				"School's over!": ["3:22 PM -- 4:00 PM"]
+			}
 		},
-		"minimum": {
-			"Waiting for first bell": ["8:00 AM -- 8:30 AM"],
-			"Get to 1st period": ["8:30 AM -- 8:35 AM"],
-			"1st period": ["8:35 AM -- 9:17 AM"],
-			"1st-2nd passing period": ["9:17 AM -- 9:23 AM"],
-			"2nd period": ["9:23 AM -- 10:05 AM"],
-			"2nd-3rd passing period": ["10:05 AM -- 10:11 AM"],
-			"3rd period": ["10:11 AM -- 10:53 AM"],
-			"3rd-4th passing period": ["10:53 AM -- 10:59 AM"],
-			"4th period": ["10:59 AM -- 11:41 AM"],
-			"4th-5th passing period": ["11:41 AM -- 11:47 AM"],
-			"5th period": ["11:47 AM -- 12:29 PM"],
-			"5th-6th passing period": ["12:29 PM -- 12:35 PM"],
-			"6th period": ["12:35 PM -- 1:17 PM"],
-			"School's over!": ["1:17 PM -- 2:00 PM"]
+		{
+			"id": "minimum",
+			"label": "Minimum",
+			"timings": {
+				"Waiting for first bell": ["8:00 AM -- 8:30 AM"],
+				"Get to 1st period": ["8:30 AM -- 8:35 AM"],
+				"1st period": ["8:35 AM -- 9:17 AM"],
+				"1st-2nd passing period": ["9:17 AM -- 9:23 AM"],
+				"2nd period": ["9:23 AM -- 10:05 AM"],
+				"2nd-3rd passing period": ["10:05 AM -- 10:11 AM"],
+				"3rd period": ["10:11 AM -- 10:53 AM"],
+				"3rd-4th passing period": ["10:53 AM -- 10:59 AM"],
+				"4th period": ["10:59 AM -- 11:41 AM"],
+				"4th-5th passing period": ["11:41 AM -- 11:47 AM"],
+				"5th period": ["11:47 AM -- 12:29 PM"],
+				"5th-6th passing period": ["12:29 PM -- 12:35 PM"],
+				"6th period": ["12:35 PM -- 1:17 PM"],
+				"School's over!": ["1:17 PM -- 2:00 PM"]
+			}
 		},
-		"blockOne": {
-			"Waiting for first bell": ["8:00 AM -- 8:30 AM"],
-			"Get to 1st period": ["8:30 AM -- 8:35 AM"],
-			"1st period": ["8:35 AM -- 10:37 AM"],
-			"1st-3rd passing period": ["10:37 AM -- 10:43 AM"],
-			"3rd period": ["10:43 AM -- 12:45 PM"],
-			"Lunch": ["12:45 AM -- 1:15 PM"],
-			"Lunch-5th passing period": ["1:15 PM -- 1:21 PM"],
-			"5th period": ["1:21 PM -- 3:22 PM"],
-			"School's over!": ["3:22 PM -- 3:30 PM"]
+		{
+			"id": "blockOne",
+			"label": "Block 1",
+			"timings": {
+				"Waiting for first bell": ["8:00 AM -- 8:30 AM"],
+				"Get to 1st period": ["8:30 AM -- 8:35 AM"],
+				"1st period": ["8:35 AM -- 10:37 AM"],
+				"1st-3rd passing period": ["10:37 AM -- 10:43 AM"],
+				"3rd period": ["10:43 AM -- 12:45 PM"],
+				"Lunch": ["12:45 AM -- 1:15 PM"],
+				"Lunch-5th passing period": ["1:15 PM -- 1:21 PM"],
+				"5th period": ["1:21 PM -- 3:22 PM"],
+				"School's over!": ["3:22 PM -- 3:30 PM"]
+			}
 		},
-		"blockTwo": {
-			"Waiting for first bell": ["8:00 AM -- 8:30 AM"],
-			"Get to 2nd period": ["8:30 AM -- 8:35 AM"],
-			"2nd period": ["8:35 AM -- 10:37 AM"],
-			"2nd-4th passing period": ["10:37 AM -- 10:43 AM"],
-			"4th period": ["10:43 AM -- 12:45 PM"],
-			"Lunch": ["12:45 AM -- 1:15 PM"],
-			"Lunch-6th passing period": ["1:15 PM -- 1:21 PM"],
-			"6th period": ["1:21 PM -- 3:22 PM"],
-			"School's over!": ["3:22 PM -- 3:30 PM"]
+		{
+			"id": "blockTwo",
+			"label": "Block 2",
+			"timings": {
+				"Waiting for first bell": ["8:00 AM -- 8:30 AM"],
+				"Get to 2nd period": ["8:30 AM -- 8:35 AM"],
+				"2nd period": ["8:35 AM -- 10:37 AM"],
+				"2nd-4th passing period": ["10:37 AM -- 10:43 AM"],
+				"4th period": ["10:43 AM -- 12:45 PM"],
+				"Lunch": ["12:45 AM -- 1:15 PM"],
+				"Lunch-6th passing period": ["1:15 PM -- 1:21 PM"],
+				"6th period": ["1:21 PM -- 3:22 PM"],
+				"School's over!": ["3:22 PM -- 3:30 PM"]
+			}
 		},
-		"finalsBlockOne": {
-			"Waiting for first bell": ["8:00 AM -- 8:30 AM"],
-			"Get to 1st period": ["8:30 AM -- 8:35 AM"],
-			"1st period": ["8:35 AM -- 10:04 AM"],
-			"1st-3rd passing period": ["10:04 AM -- 10:10 AM"],
-			"3rd period": ["10:10 AM -- 11:39 AM"],
-			"Lunch": ["11:39 AM -- 12:09 PM"],
-			"Lunch-5th passing period": ["12:09 PM -- 12:15 PM"],
-			"5th period": ["12:15 PM -- 1:44 PM"],
-			"School's over!": ["1:44 PM -- 2:00 PM"]
+		{
+			"id": "finalsBlockOne",
+			"label": "Finals block 1",
+			"timings": {
+				"Waiting for first bell": ["8:00 AM -- 8:30 AM"],
+				"Get to 1st period": ["8:30 AM -- 8:35 AM"],
+				"1st period": ["8:35 AM -- 10:04 AM"],
+				"1st-3rd passing period": ["10:04 AM -- 10:10 AM"],
+				"3rd period": ["10:10 AM -- 11:39 AM"],
+				"Lunch": ["11:39 AM -- 12:09 PM"],
+				"Lunch-5th passing period": ["12:09 PM -- 12:15 PM"],
+				"5th period": ["12:15 PM -- 1:44 PM"],
+				"School's over!": ["1:44 PM -- 2:00 PM"]
+			}
 		},
-		"finalsBlockTwo": {
-			"Waiting for first bell": ["8:00 AM -- 8:30 AM"],
-			"Get to 2nd period": ["8:30 AM -- 8:35 AM"],
-			"2nd period": ["8:35 AM -- 10:04 AM"],
-			"2nd-4th passing period": ["10:04 AM -- 10:10 AM"],
-			"4th period": ["10:10 AM -- 11:39 AM"],
-			"Lunch": ["11:39 AM -- 12:09 PM"],
-			"Lunch-6th passing period": ["12:09 PM -- 12:15 PM"],
-			"6th period": ["12:15 PM -- 1:44 PM"],
-			"School's over!": ["1:44 PM -- 2:00 PM"]
+		{
+			"id": "finalsBlockTwo",
+			"label": "Finals block 2",
+			"timings": {
+				"Waiting for first bell": ["8:00 AM -- 8:30 AM"],
+				"Get to 2nd period": ["8:30 AM -- 8:35 AM"],
+				"2nd period": ["8:35 AM -- 10:04 AM"],
+				"2nd-4th passing period": ["10:04 AM -- 10:10 AM"],
+				"4th period": ["10:10 AM -- 11:39 AM"],
+				"Lunch": ["11:39 AM -- 12:09 PM"],
+				"Lunch-6th passing period": ["12:09 PM -- 12:15 PM"],
+				"6th period": ["12:15 PM -- 1:44 PM"],
+				"School's over!": ["1:44 PM -- 2:00 PM"]
+			}
 		}
-	},
+	],
 	
 	"full_day_overrides": [
 		{
