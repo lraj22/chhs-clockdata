@@ -8,12 +8,7 @@
 		"timezone": "America/Los_Angeles"
 	},
 	
-	"announcements": [
-		{
-			"message": "Welcome to TimeCheck 22! This is a customizable announcement. - TC22 Staff",
-			"applies": ["12:00 AM -- 11:59 PM | end"]
-		}
-	],
+	"announcements": [],
 	
 	"schedulingRules": [
 		{
