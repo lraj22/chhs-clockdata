@@ -1,6 +1,6 @@
 {
 	"version": 1,
-	"last_updated_id": "2025-09-20-01",
+	"last_updated_id": "2025-11-02-01",
 	"metadata": {
 		"schoolId": 1,
 		"school": "Chino Hills High School",
@@ -8,7 +8,12 @@
 		"timezone": "America/Los_Angeles"
 	},
 	
-	"announcements": [],
+	"announcements": [
+		{
+			"message": "Enjoy your 4-day weekend!",
+			"applies": ["2025-11-10 -- 2025-11-11 | end"]
+		}
+	],
 	
 	"schedulingRules": [
 		{
@@ -185,20 +190,20 @@
 		},
 		{
 			"name": "Veterans' Day (long weekend)",
-			"applies": ["2025-11-10 -- 2025-11-11"],
+			"applies": ["2025-11-10 -- 2025-11-11 | end"],
 			"schedule": "noSchool"
 		},
 		{
 			"name": "Thanksgiving Break",
-			"applies": ["2025-11-24 -- 2025-11-28"],
+			"applies": ["2025-11-24 -- 2025-11-28 | end"],
 			"schedule": "noSchool"
 		},
 		{
 			"name": "Winter Break",
 			"applies": [
-				"2025-12-18 -- 2025-12-19",
-				"2025-12-22 -- 2025-12-26",
-				"2025-12-29 -- 2026-01-02"
+				"2025-12-18 -- 2025-12-19 | end",
+				"2025-12-22 -- 2025-12-26 | end",
+				"2025-12-29 -- 2026-01-02 | end"
 			],
 			"schedule": "noSchool"
 		},
@@ -219,7 +224,7 @@
 		},
 		{
 			"name": "Spring Break",
-			"applies": ["2026-03-30 -- 2026-04-03"],
+			"applies": ["2026-03-30 -- 2026-04-03 | end"],
 			"schedule": "noSchool"
 		},
 		{
@@ -229,7 +234,7 @@
 		},
 		{
 			"name": "Summer Break",
-			"applies": ["2026-05-22 -- 2026-08-07"],
+			"applies": ["2026-05-22 -- 2026-08-07 | end"],
 			"schedule": "none"
 		}
 	],
