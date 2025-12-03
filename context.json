@@ -487,11 +487,11 @@
 	],
 	"full_day_overrides": [
 		{
-			"occasion": "Thanksgiving Break",
+			"occasion": "Harry Potter Winter Rally",
 			"applies": [
-				"2025-11-24 -- 2025-11-28 | end"
+				"2025-12-05"
 			],
-			"schedule": "noSchool"
+			"schedule": "rally"
 		},
 		{
 			"occasion": "Winter Break",
