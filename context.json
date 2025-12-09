@@ -1,6 +1,6 @@
 {
 	"version": 2,
-	"last_updated_id": "2025-12-03-01",
+	"last_updated_id": "2025-12-08-01",
 	"metadata": {
 		"school_id": 1,
 		"school_name": "Chino Hills High School",
@@ -487,11 +487,11 @@
 	],
 	"full_day_overrides": [
 		{
-			"occasion": "Harry Potter Winter Rally",
+			"occasion": "Finals Week Minimum Monday",
 			"applies": [
-				"2025-12-05"
+				"2025-12-15"
 			],
-			"schedule": "rally"
+			"schedule": "minimum"
 		},
 		{
 			"occasion": "Finals 1st block",
