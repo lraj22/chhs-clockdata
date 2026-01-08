@@ -1,6 +1,6 @@
 {
 	"version": 2,
-	"last_updated_id": "2025-12-08-01",
+	"last_updated_id": "2026-01-07-01",
 	"metadata": {
 		"school_id": 1,
 		"school_name": "Chino Hills High School",
@@ -487,34 +487,11 @@
 	],
 	"full_day_overrides": [
 		{
-			"occasion": "Finals Week Minimum Monday",
+			"occasion": "Motivational Speaker Assembly",
 			"applies": [
-				"2025-12-15"
+				"2026-01-09"
 			],
-			"schedule": "minimum"
-		},
-		{
-			"occasion": "Finals 1st block",
-			"applies": [
-				"2025-12-16"
-			],
-			"schedule": "finalsBlockOne"
-		},
-		{
-			"occasion": "Finals 2nd block",
-			"applies": [
-				"2025-12-17"
-			],
-			"schedule": "finalsBlockTwo"
-		},
-		{
-			"occasion": "Winter Break",
-			"applies": [
-				"2025-12-18 -- 2025-12-19 | end",
-				"2025-12-22 -- 2025-12-26 | end",
-				"2025-12-29 -- 2026-01-02 | end"
-			],
-			"schedule": "noSchool"
+			"schedule": "rally"
 		},
 		{
 			"occasion": "Martin Luther King Jr. Day (no school)",
