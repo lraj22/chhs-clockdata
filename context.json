@@ -487,25 +487,11 @@
 	],
 	"full_day_overrides": [
 		{
-			"occasion": "Motivational Speaker Assembly",
+			"occasion": "Disney Rally",
 			"applies": [
-				"2026-01-09"
+				"2026-02-13"
 			],
 			"schedule": "rally"
-		},
-		{
-			"occasion": "Martin Luther King Jr. Day (no school)",
-			"applies": [
-				"2026-01-19"
-			],
-			"schedule": "noSchool"
-		},
-		{
-			"occasion": "Abraham Lincoln's Birthday (no school)",
-			"applies": [
-				"2026-02-09"
-			],
-			"schedule": "noSchool"
 		},
 		{
 			"occasion": "George Washington's Birthday (no school)",
