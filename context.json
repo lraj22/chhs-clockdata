@@ -335,7 +335,7 @@
 				},
 				{
 					"label": "Lunch",
-					"applies": "12:45 AM -- 1:15 PM"
+					"applies": "12:45 PM -- 1:15 PM"
 				},
 				{
 					"label": "Lunch-5th passing period",
@@ -379,7 +379,7 @@
 				},
 				{
 					"label": "Lunch",
-					"applies": "12:45 AM -- 1:15 PM"
+					"applies": "12:45 PM -- 1:15 PM"
 				},
 				{
 					"label": "Lunch-6th passing period",
