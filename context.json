@@ -1,6 +1,6 @@
 {
 	"version": 2,
-	"last_updated_id": "2026-04-07-01",
+	"last_updated_id": "2026-04-07-02",
 	"metadata": {
 		"school_id": 1,
 		"school_name": "Chino Hills High School",
@@ -499,7 +499,7 @@
 			"schedule": "blockOne"
 		},
 		{
-			"occasion": "State Testing (Block 2/4/5)",
+			"occasion": "State Testing (Block 2/4/6)",
 			"applies": [
 				"2026-04-09",
 				"2026-04-16",
