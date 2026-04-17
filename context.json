@@ -1,6 +1,6 @@
 {
 	"version": 2,
-	"last_updated_id": "2026-04-07-02",
+	"last_updated_id": "2026-04-17-01",
 	"metadata": {
 		"school_id": 1,
 		"school_name": "Chino Hills High School",
@@ -509,6 +509,13 @@
 				"2026-05-01"
 			],
 			"schedule": "blockTwo"
+		},
+		{
+			"occasion": "Spring Rally",
+			"applies": [
+				"2026-04-17"
+			],
+			"schedule": "rally"
 		},
 		{
 			"occasion": "Summer Break",
