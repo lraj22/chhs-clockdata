@@ -487,35 +487,26 @@
 	],
 	"full_day_overrides": [
 		{
-			"occasion": "State Testing (Block 1/3/5)",
+			"occasion": "Last Week Minimums",
 			"applies": [
-				"2026-04-08",
-				"2026-04-15",
-				"2026-04-21",
-				"2026-04-23",
-				"2026-04-28",
-				"2026-04-30"
+				"2026-05-18",
+				"2026-05-19"
 			],
-			"schedule": "blockOne"
+			"schedule": "minimum"
 		},
 		{
-			"occasion": "State Testing (Block 2/4/6)",
+			"occasion": "Finals Block (Block 1/3/5)",
 			"applies": [
-				"2026-04-09",
-				"2026-04-16",
-				"2026-04-22",
-				"2026-04-24",
-				"2026-04-29",
-				"2026-05-01"
+				"2026-05-20"
 			],
-			"schedule": "blockTwo"
+			"schedule": "finalsBlockOne"
 		},
 		{
-			"occasion": "Spring Rally",
+			"occasion": "Finals Block (Block 2/4/6)",
 			"applies": [
-				"2026-04-17"
+				"2026-05-21"
 			],
-			"schedule": "rally"
+			"schedule": "finalsBlockTwo"
 		},
 		{
 			"occasion": "Summer Break",
