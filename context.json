@@ -1,6 +1,6 @@
 {
 	"version": 2,
-	"last_updated_id": "2026-05-18-01",
+	"last_updated_id": "2026-08-10-01",
 	"metadata": {
 		"school_id": 1,
 		"school_name": "Chino Hills High School",
@@ -487,31 +487,72 @@
 	],
 	"full_day_overrides": [
 		{
-			"occasion": "Last Week Minimums",
+			"occasion": "First Day Minimum",
 			"applies": [
-				"2026-05-18",
-				"2026-05-19"
+				"2026-08-10"
 			],
 			"schedule": "minimum"
 		},
 		{
-			"occasion": "Finals Block (Block 1/3/5)",
+			"occasion": "Labor Day Long Weekend",
 			"applies": [
-				"2026-05-20"
+				"2026-09-06"
 			],
-			"schedule": "finalsBlockOne"
+			"schedule": "noSchool"
 		},
 		{
-			"occasion": "Finals Block (Block 2/4/6)",
+			"occasion": "Veteran's Day Holiday",
 			"applies": [
-				"2026-05-21"
+				"2026-11-11"
 			],
-			"schedule": "finalsBlockTwo"
+			"schedule": "noSchool"
+		},
+		{
+			"occasion": "Thanksgiving Break",
+			"applies": [
+				"2026-11-23 -- 2026-11-27 | end"
+			],
+			"schedule": "noSchool"
+		},
+		{
+			"occasion": "Winter Break",
+			"applies": [
+				"2026-12-18 -- 2027-01-05 | end"
+			],
+			"schedule": "noSchool"
+		},
+		{
+			"occasion": "Martin Luther King Jr. Day Holiday",
+			"applies": [
+				"2027-01-18"
+			],
+			"schedule": "noSchool"
+		},
+		{
+			"occasion": "Abraham Lincoln's Birthday Long Weekend",
+			"applies": [
+				"2027-02-08"
+			],
+			"schedule": "noSchool"
+		},
+		{
+			"occasion": "George Washington's Birthday Long Weekend",
+			"applies": [
+				"2027-02-15"
+			],
+			"schedule": "noSchool"
+		},
+		{
+			"occasion": "Spring Break",
+			"applies": [
+				"2027-03-22 -- 2027-03-29"
+			],
+			"schedule": "noSchool"
 		},
 		{
 			"occasion": "Summer Break",
 			"applies": [
-				"2026-05-22 -- 2026-08-07 | end"
+				"2027-05-28 -- 2027-08-06 | end"
 			],
 			"schedule": "none"
 		}
