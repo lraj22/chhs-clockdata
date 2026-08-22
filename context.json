@@ -1,6 +1,6 @@
 {
 	"version": 2,
-	"last_updated_id": "2026-08-21-01",
+	"last_updated_id": "2026-08-21-02",
 	"metadata": {
 		"school_id": 1,
 		"school_name": "Chino Hills High School",
@@ -8,7 +8,45 @@
 		"timezone": "America/Los_Angeles"
 	},
 	
-	"announcements": [],
+	"announcements": [
+		{
+			"message": "Back 2 School Night tonight, 5:30-7:00pm! ~ CHHS TimeCheck Team",
+			"applies": [
+				"2026-08-26/08:00 AM -- 2026-08-26/09:00 AM",
+				"2026-08-26/03:00 PM -- 2026-08-26/03:30 PM"
+			]
+		},
+		{
+			"message": "<b>Lockdown drill @ approximately 11am today (August 27, 2026)</b>",
+			"applies": [
+				"2026-08-27/08:00 AM -- 2026-08-27/11:05 AM"
+			]
+		},
+		{
+			"message": "<b>Fire drill @ approximately 9:45am today (September 22, 2026)</b>",
+			"applies": [
+				"2026-09-22/08:00 AM -- 2026-09-22/09:50 AM"
+			]
+		},
+		{
+			"message": "<b>Earthquake drill @ approximately 10:15am today (October 15, 2026)</b>",
+			"applies": [
+				"2026-10-15/08:00 AM -- 2026-10-15/10:20 AM"
+			]
+		},
+		{
+			"message": "<b>Lockdown drill @ approximately 12pm today (November 17, 2026)</b>",
+			"applies": [
+				"2026-11-17/08:00 AM -- 2026-11-17/12:05 PM"
+			]
+		},
+		{
+			"message": "<b>Earthquake drill @ approximately 2pm today (December 9, 2026)</b>",
+			"applies": [
+				"2026-12-09/08:00 AM -- 2026-12-09/02:05 PM"
+			]
+		}
+	],
 	
 	"scheduling_rules": [
 		{
@@ -487,11 +525,11 @@
 	],
 	"full_day_overrides": [
 		{
-			"occasion": "First Day Minimum",
+			"occasion": "Subway Surfers Rally",
 			"applies": [
-				"2026-08-10"
+				"2026-08-28"
 			],
-			"schedule": "minimum"
+			"schedule": "rally"
 		},
 		{
 			"occasion": "Labor Day Long Weekend",
@@ -508,11 +546,39 @@
 			"schedule": "noSchool"
 		},
 		{
+			"occasion": "Rally",
+			"applies": [
+				"2026-11-20"
+			],
+			"schedule": "rally"
+		},
+		{
 			"occasion": "Thanksgiving Break",
 			"applies": [
 				"2026-11-23 -- 2026-11-27 | end"
 			],
 			"schedule": "noSchool"
+		},
+		{
+			"occasion": "Finals Minimum Day",
+			"applies": [
+				"2026-12-15"
+			],
+			"schedule": "minimum"
+		},
+		{
+			"occasion": "Finals Odd Days",
+			"applies": [
+				"2026-12-16"
+			],
+			"schedule": "finalsBlockOne"
+		},
+		{
+			"occasion": "Finals Even Days",
+			"applies": [
+				"2026-12-17"
+			],
+			"schedule": "finalsBlockTwo"
 		},
 		{
 			"occasion": "Winter Break",
