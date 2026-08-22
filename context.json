@@ -1,6 +1,6 @@
 {
 	"version": 2,
-	"last_updated_id": "2026-08-10-01",
+	"last_updated_id": "2026-08-21-01",
 	"metadata": {
 		"school_id": 1,
 		"school_name": "Chino Hills High School",
@@ -559,6 +559,71 @@
 	],
 	
 	"timeframe_overrides": [
+		{
+			"occasion": "Back to School Night - Coming up",
+			"label": "Get ready for Back to School Night",
+			"applies": ["2026-08-26/04:00 PM -- 2026-08-26/05:30 PM"]
+		},
+		{
+			"occasion": "Back to School Night - Period 1",
+			"label": "BTSN Period 1",
+			"applies": ["2026-08-26/05:30 PM -- 2026-08-26/05:40 PM"]
+		},
+		{
+			"occasion": "Back to School Night - Passing Period 1-2",
+			"label": "BTSN Passing Period 1-2",
+			"applies": ["2026-08-26/05:40 PM -- 2026-08-26/05:45 PM"]
+		},
+		{
+			"occasion": "Back to School Night - Period 2",
+			"label": "BTSN Period 2",
+			"applies": ["2026-08-26/05:45 PM -- 2026-08-26/05:55 PM"]
+		},
+		{
+			"occasion": "Back to School Night - Passing Period 2-3",
+			"label": "BTSN Passing Period 2-3",
+			"applies": ["2026-08-26/05:55 PM -- 2026-08-26/06:00 PM"]
+		},
+		{
+			"occasion": "Back to School Night - Period 3",
+			"label": "BTSN Period 3",
+			"applies": ["2026-08-26/06:00 PM -- 2026-08-26/06:10 PM"]
+		},
+		{
+			"occasion": "Back to School Night - Passing Period 3-4",
+			"label": "BTSN Passing Period 3-4",
+			"applies": ["2026-08-26/06:10 PM -- 2026-08-26/06:15 PM"]
+		},
+		{
+			"occasion": "Back to School Night - Period 4",
+			"label": "BTSN Period 4",
+			"applies": ["2026-08-26/06:15 PM -- 2026-08-26/06:25 PM"]
+		},
+		{
+			"occasion": "Back to School Night - Passing Period 4-5",
+			"label": "BTSN Passing Period 4-5",
+			"applies": ["2026-08-26/06:25 PM -- 2026-08-26/06:30 PM"]
+		},
+		{
+			"occasion": "Back to School Night - Period 5",
+			"label": "BTSN Period 5",
+			"applies": ["2026-08-26/06:30 PM -- 2026-08-26/06:40 PM"]
+		},
+		{
+			"occasion": "Back to School Night - Passing Period 5-6",
+			"label": "BTSN Passing Period 5-6",
+			"applies": ["2026-08-26/06:40 PM -- 2026-08-26/06:45 PM"]
+		},
+		{
+			"occasion": "Back to School Night - Period 6",
+			"label": "BTSN Period 6",
+			"applies": ["2026-08-26/06:45 PM -- 2026-08-26/06:55 PM"]
+		},
+		{
+			"occasion": "Back to School Night - Done",
+			"label": "Back to School Night is over!",
+			"applies": ["2026-08-26/06:55 PM -- 2026-08-26/7:30 PM"]
+		},
 		{
 			"occasion": "Example",
 			"label": "[Testing] Timeframe Override",
